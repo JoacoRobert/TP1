@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0px 0px 0px;
+    
+}
+
+a{
+    padding: 0px 40px;
+}
+
+
+.contenedor{
+    height: 110vh;
+    width: 100%;
+    background-image: url("../img/tarjeta.jpg"); 
+    background-size: cover;
+}
+
+
+.titulouno{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: gray;
+}
