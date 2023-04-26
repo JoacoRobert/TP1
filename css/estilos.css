@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Dancing+Script&display=swap');
 
-
-.remove-bg{
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
-}
 .nav{
     display: flex;
     align-items: center;
@@ -42,6 +37,33 @@ a{
     padding: 0px 40px;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textos{
+    display: block;
+    padding: 0px 0px 0px 100px;
+}
+
+.titulouno{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.titulouno img{
+    padding: 0px 0px 0px 20px;
+}
+
+.titulodos{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
 
 .botones{
     display: flex;
@@ -72,36 +94,14 @@ a{
     color: white;
 }
 
-.contenedor{
-    display: flex;
-    justify-content: space-around;
-}
-
-.textos{
-    display: block;
-    padding: 0px 0px 0px 100px;
-}
-
-.titulouno{
-    display: flex;
-    font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-}
-.titulouno img{
-    padding: 0px 0px 0px 20px;
-}
-
-.titulodos{
-    font-size: 30px;
-}
-
-p{
-    font-size: 20px;
-}
-
 .imgprincipal{
     max-width: 500px;
     margin: 100px 0px 0px 0px;
+}
+
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 .contenedoriconos{
