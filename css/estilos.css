@@ -1,49 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Dancing+Script&display=swap');
 
 
-body{
-    background-color: green;
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
-
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 25px 0px 0px 0px; 
+    padding: 25px 0px 0px 0px;   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #332E30;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.botonnav{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.botonnav:hover{
+    background-color: blue;
 }
 
 a{
     padding: 0px 40px;
 }
 
-.contenedor{
-    background-color: blueviolet;
+
+.botones{
     display: flex;
-    
-   
- 
+    margin: 40px 0px;
 }
 
-.imagenprincipal{
-    width: 500px;
-    background-color: red;
-    justify-content: flex-end;  
+.botonuno{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
 }
 
+.botonuno:hover{
+    background-color: blue;
+}
 
+.botondos{
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+.botondos:hover{
+    background-color: blue;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textos{
+    display: block;
+    padding: 0px 0px 0px 100px;
+}
+
+.titulouno{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.titulouno img{
+    padding: 0px 0px 0px 20px;
+}
+
+.titulodos{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.imgprincipal{
+    max-width: 500px;
+    margin: 100px 0px 0px 0px;
+}
+
+.contenedoriconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px 60px 0px;
+}
+
+.binance{
+    display: flex;
+    align-items: center;
+}
+
+.coinbase{
+    display: flex;
+    align-items: center;
+}
+
+.ethereum{
+    display: flex;
+    align-items: center;
+}
+
+.miestilo{
+    font-size: 25px;
+    margin-right: 10px;
+}
 
 .contenedorfinal{
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: space-around;
+    background-color: #332E30;
+    padding: 40px 0px;
 }
 
-/**.contenedor{
-    position: absolute;
-    top: 100px;
-    bottom: 0;
-    left: 1200px;
-    right: 0;
-}**/
+.contenedorfinal img{
+   width: 200px;
+   height: 60px;
+}
+
+.amazon{
+    border-right: 2px solid white; 
+}
+
+.google{
+    border-right: 2px solid white;
+}
+
+.facebook{
+    border-right: 2px solid white;
+}
+
+
+
+
 
 
 
